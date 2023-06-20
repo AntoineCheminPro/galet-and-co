@@ -1,13 +1,26 @@
-@media screen and (min-width: 769px) and (max-width : 911px) {
+@media screen and (min-width: 769px) {
     nav {
         width: 1200px;
-        min-height: 80px;
-        position: fixed;
-        top: 0;
-        left: 0;
+        height: 80px;
         background-color: #f0f0f0;
         z-index: 9999;
-        margin-top: 0;
+        margin-bottom: 50px;
         padding-top: 0;
     }
+
+    .nav-fixed-bottom {
+        position: static !important;
+        margin-bottom: 50px;
+        font-size: 17px;
+        font-weight: 800;
+
+    }
+
+
+    header {
+        max-width: 1200px;
+        margin: 0 auto 0 auto;
+        background-image: 'assets\images\imageG&C.png';
+    }
+
 }

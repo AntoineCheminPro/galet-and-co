@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/small.css">
-    <link rel="stylesheet" href="assets/css/medium.css">
     <link rel="stylesheet" href="assets/css/large.css">
     <link rel="stylesheet" href="assets/css/rules/lg-rules.css">
     <link rel="stylesheet" href="assets/css/rules/sm-rules.css">
@@ -33,7 +32,7 @@
 
     <header>
 
-        <nav class="bg-black navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark" data-bs-theme="dark">
+        <nav class="bg-black navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark nav-fixed-bottom" data-bs-theme="dark">
             <div class="container-fluid">
                 <div class="d-flex jc-sp-btwn w-100">
                     <a class="color-white no-txt-deco d-flex jc-sp-ard f-size-30" href="#top">
@@ -88,16 +87,16 @@
             </div>
         </nav>
 
-        <div class="lg-flex md-flex w-100 m-auto">
-            <img src="assets/images/imageG&C.png" class="main-img w-100 box-shadow md-mt-50 lg-mt-50 sm-mt-50"
+        <div class="lg-flex md-flex w-100 m-auto ">
+            <img src="assets/images/imageG&C.png" class="main-img w-100 box-shadow unedecouv"
                 alt="photo devanture Galet' & Co ouvert">
         </div>
     </header>
     <main>
 
-        <section class="d-flex flex-column flex-md-row mb-5">
+        <section class="d-flex flex-column flex-md-row my-5">
             <div class="d-flex flex-column ai-center col-md-6 col-lg-6">
-                <img class="logo m-auto w-75" src="assets/images/logo.png" alt="logo Galet' & co">
+                <img class="logo m-auto w-75" src="assets/images/logo.svg" alt="logo Galet' & co">
                 <h3 class="d-flex  jc-center">11 place Notre-Dame</h3>
                 <h3 class="d-flex  jc-center">56260 Larmor-Plage</h3>
                 <h3 class="d-flex  jc-center">
@@ -114,81 +113,14 @@
             </aside>
         </section>
 
-        <h2 class="d-flex  jc-center my-5 text-center">Crêperie atypique sur place ou à emporter !</h2>
-
-
-        <!-- carrousel -->
-
-        <section class="d-flex  lg-row md-row sm-column w-100 mt-100 mb-5">
-            <div class="carousel-container w-100 w-md-50 lg-flex md-flex jc-center">
-                <div class="carousel d-flex jc-center">
-                    <div class="slide photo-carrousel">
-                        <img src="assets/images/photo-terrasse.jpg" alt="photo Terrasse" class="box-shadow">
-                    </div>
-                    <div class="slide photo-carrousel">
-                        <img src="assets/images/photos/crepe-vue-eglise.jpg" alt="photo vue sur l'église"
-                            class="box-shadow">
-                    </div>
-                    <div class="slide photo-carrousel">
-                        <img src="assets/images/photos/notre-concept.jpg" alt="photo présentation concept"
-                            class="box-shadow">
-                    </div>
-                    <div class="slide photo-carrousel">
-                        <img src="assets/images/photos/interieur.jpg" alt="photo intérieur" class="box-shadow">
-                    </div>
-                    <div class="slide photo-carrousel">
-                        <img src="assets/images/photos/formule-gouter.jpg" alt="photo formule-gouter"
-                            class="box-shadow">
-                    </div>
-                </div>
-                <a class="prev text-dark text-decoration-none" onclick="changeSlide(-1)">&#10094;</a>
-                <a class="next text-dark text-decoration-none" onclick="changeSlide(1)">&#10095;</a>
-            </div>
-
-            <aside class="w-100 d-flex column">
-                <p class="d-flex  ai-center jc-center h-100 p-10 intro">Chez Galet'&Co <br> composez vous même <br> vos
-                    galettes et crêpes préparées avec une farine bretonne bio</p>
-            </aside>
-        </section>
-
-
-        <!-- Nos services -->
-
-        <section>
-            <h2 class="d-flex  jc-center mb-3">Nos services</h2>
-            <div class="services d-flex lg-row md-row sm-column jc-sp-ard mt-3">
-                <div class="d-flex  flex-column  jc-center ai-center m-4 P-4">
-                    <img src="assets/images/icons8-accessibilité-1-50.png" class="services-logo" alt="logo handicap">
-                    <p>Accessible mobilité réduite</p>
-                </div>
-                <div class="d-flex  flex-column  jc-center ai-center m-4 P-4">
-                    <img src="assets/images/icons8-chaise-64.png" class="services-logo" alt="logo terrasse">
-                    <p>Terrasse</p>
-                </div>
-                <div class="d-flex  flex-column  jc-center ai-center m-4 P-4">
-                    <img src="assets/images/icons8-nourriture-à-emporter-50.png" class="services-logo"
-                        alt="logo à emporter">
-                    <p>A emporter</p>
-                </div>
-                <div class="d-flex  flex-column  jc-center ai-center m-4 P-4">
-                    <img src="assets/images/icons8-wifi-32.png" class="services-logo" alt="logo wifi">
-                    <p>Wifi gratuit</p>
-                </div>
-                <div class="d-flex  flex-column  jc-center ai-center m-4 P-4">
-                    <img src="assets/images/icons8-chien-50.png" class="services-logo" alt="logo chien">
-                    <p>Animaux domestiques autorisés</p>
-                </div>
-            </div>
-        </section>
-
 
 
         <!-- menu -->
-        <section id="menu">
+        <section id="menu" class=" my-5">
 
             <h2 class="text-center my-5">Faites votre choix !</h2>
             <div
-                class="content bg-black d-flex flex-row rounded-start-pill rounded-end-pill jc-center ai-center w-md-50 w-100 m-auto my-4">
+                class="content bg-black d-flex flex-row rounded-start-pill rounded-end-pill jc-center ai-center col-md-6 m-auto my-4">
                 <img src="assets/images/logo.svg" class="img-invers menu-logo" alt="logo galet' & co">
                 <div class="d-flex column">
                     <h4>GALETTES ET CRÊPES</h4>
@@ -604,54 +536,6 @@
             </div>
 
         </section>
-        <!-- disponible -->
-
-
-
-        <section class="my-5">
-            <h2 class="d-flex jc-center my-5">Disponible</h2>
-            <div class="services d-flex flex-md-row flex-column jc-sp-ard wrap ai-center">
-                <div class="d-flex flex-column jc-center ai-center w-25 mb-15">
-                    <img src="assets/images/icons8-en-espèces-100.png" class="services-logo"
-                        alt="logo billets et piéces">
-                    <p>Espèces</p>
-                </div>
-                <div class="d-flex flex-column jc-center ai-center w-25 mb-15">
-                    <img src="assets/images/sans-contact.png" class="services-logo" alt="logo paiement sans contact">
-                    <p>Paiement sans contact</p>
-                </div>
-                <div class="d-flex flex-column jc-center ai-center w-25 mb-15">
-                    <img src="assets/images/mastercard-credit-card-icon-2048x1594-qhguadfx.png" class="services-logo"
-                        alt="logo mastercard">
-                    <p>MasterCard</p>
-                </div>
-                <div class="d-flex flex-column jc-center ai-center w-25 mb-15">
-                    <img src="assets/images/visa.png" class="services-logo" alt="logo carte visa">
-                    <p>Visa</p>
-                </div>
-                <div class="d-flex flex-column jc-center ai-center w-25 mb-15">
-                    <img src="assets/images/ticket-restau.png" class="services-logo" alt="logo ticket restaurant">
-                    <p>Ticket restaurant</p>
-                </div>
-                <div class="d-flex flex-column jc-center ai-center w-25 mb-15">
-                    <img src="assets/images/carte-ticket-restau.png" class="services-logo"
-                        alt="logo carte ticket restaurant">
-                    <p>Carte ticket restaurant</p>
-                </div>
-                <div class="d-flex flex-column jc-center ai-center w-25 mb-15">
-                    <img src="assets/images/apple-pay.png" class="services-logo-apple" alt="logo apple pay">
-                    <p>Apple Pay</p>
-                </div>
-                <div class="d-flex flex-column jc-center ai-center w-25 mb-15">
-                    <img src="assets/images/maestro.png" class="services-logo" alt="logo maestro">
-                    <p>Maestro</p>
-                </div>
-            </div>
-        </section>
-
-
-
-
 
         <!-- Notre concept unique en vidéo -->
 
@@ -673,11 +557,82 @@
 
         </section>
 
+        <!-- Nos services -->
+
+        <section>
+            <h2 class="d-flex  jc-center mb-3">Nos services</h2>
+            <div class="services d-flex lg-row md-row sm-column jc-sp-ard mt-3">
+                <div class="d-flex  flex-column  jc-center ai-center m-4 P-4">
+                    <img src="assets/images/icons8-accessibilité-1-50.png" class="services-logo" alt="logo handicap">
+                    <p>Accessible mobilité réduite</p>
+                </div>
+                <div class="d-flex  flex-column  jc-center ai-center m-4 P-4">
+                    <img src="assets/images/icons8-chaise-64.png" class="services-logo" alt="logo terrasse">
+                    <p>Terrasse</p>
+                </div>
+                <div class="d-flex  flex-column  jc-center ai-center m-4 P-4">
+                    <img src="assets/images/icons8-nourriture-à-emporter-50.png" class="services-logo"
+                        alt="logo à emporter">
+                    <p>A emporter</p>
+                </div>
+                <div class="d-flex  flex-column  jc-center ai-center m-4 P-4">
+                    <img src="assets/images/icons8-wifi-32.png" class="services-logo" alt="logo wifi">
+                    <p>Wifi gratuit</p>
+                </div>
+                <div class="d-flex  flex-column  jc-center ai-center m-4 P-4">
+                    <img src="assets/images/icons8-chien-50.png" class="services-logo" alt="logo chien">
+                    <p>Animaux domestiques autorisés</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        <h2 class="d-flex  jc-center my-5 text-center">Crêperie atypique sur place ou à emporter !</h2>
+
+
+        <!-- carrousel -->
+
+        <section class="d-flex  lg-row md-row sm-column w-100 mt-100 mb-5">
+            <div class="carousel-container w-100 w-md-50 lg-flex md-flex jc-center">
+                <div class="carousel d-flex jc-center">
+                    <div class="slide photo-carrousel">
+                        <img src="assets/images/photo-terrasse.jpg" alt="photo Terrasse" class="box-shadow">
+                    </div>
+                    <div class="slide photo-carrousel">
+                        <img src="assets/images/photos/crepe-vue-eglise.jpg" alt="photo vue sur l'église"
+                            class="box-shadow">
+                    </div>
+                    <div class="slide photo-carrousel">
+                        <img src="assets/images/photos/notre-concept.jpg" alt="photo présentation concept"
+                            class="box-shadow">
+                    </div>
+                    <div class="slide photo-carrousel">
+                        <img src="assets/images/photos/interieur.jpg" alt="photo intérieur" class="box-shadow">
+                    </div>
+                    <div class="slide photo-carrousel">
+                        <img src="assets/images/photos/formule-gouter.jpg" alt="photo formule-gouter"
+                            class="box-shadow">
+                    </div>
+                </div>
+                <a class="prev text-dark text-decoration-none" onclick="changeSlide(-1)">&#10094;</a>
+                <a class="next text-dark text-decoration-none" onclick="changeSlide(1)">&#10095;</a>
+            </div>
+
+            <aside class="w-100 d-flex column">
+                <p class="d-flex  ai-center jc-center h-100 p-10 intro">Chez Galet'&Co <br> composez vous même <br> vos
+                    galettes et crêpes préparées avec une farine bretonne bio</p>
+            </aside>
+        </section>
+
+
+
+
         <!-- produits locaux -->
 
 
 
-        <div id="products my-5">
+        <div id="products" class="my-5">
             <h2 class="d-flex  jc-sp-btwn flex-column flex-md-row ai-center">
                 <img class="flag my-5" src="assets/images/Flag_of_Brittany.svg" alt="Drapeau breton">
                 Nos produits sont locaux
@@ -756,6 +711,52 @@
             </a>
 
         </section>
+
+        <!-- disponible -->
+
+
+
+        <section class="my-5">
+            <h2 class="d-flex jc-center my-5">Disponible</h2>
+            <div class="services d-flex flex-md-row flex-column jc-sp-ard wrap ai-center">
+                <div class="d-flex flex-column jc-center ai-center w-25 mb-15">
+                    <img src="assets/images/icons8-en-espèces-100.png" class="services-logo"
+                        alt="logo billets et piéces">
+                    <p>Espèces</p>
+                </div>
+                <div class="d-flex flex-column jc-center ai-center w-25 mb-15">
+                    <img src="assets/images/sans-contact.png" class="services-logo" alt="logo paiement sans contact">
+                    <p>Paiement sans contact</p>
+                </div>
+                <div class="d-flex flex-column jc-center ai-center w-25 mb-15">
+                    <img src="assets/images/mastercard-credit-card-icon-2048x1594-qhguadfx.png" class="services-logo"
+                        alt="logo mastercard">
+                    <p>MasterCard</p>
+                </div>
+                <div class="d-flex flex-column jc-center ai-center w-25 mb-15">
+                    <img src="assets/images/visa.png" class="services-logo" alt="logo carte visa">
+                    <p>Visa</p>
+                </div>
+                <div class="d-flex flex-column jc-center ai-center w-25 mb-15">
+                    <img src="assets/images/ticket-restau.png" class="services-logo" alt="logo ticket restaurant">
+                    <p>Ticket restaurant</p>
+                </div>
+                <div class="d-flex flex-column jc-center ai-center w-25 mb-15">
+                    <img src="assets/images/carte-ticket-restau.png" class="services-logo"
+                        alt="logo carte ticket restaurant">
+                    <p>Carte ticket restaurant</p>
+                </div>
+                <div class="d-flex flex-column jc-center ai-center w-25 mb-15">
+                    <img src="assets/images/apple-pay.png" class="services-logo-apple" alt="logo apple pay">
+                    <p>Apple Pay</p>
+                </div>
+                <div class="d-flex flex-column jc-center ai-center w-25 mb-15">
+                    <img src="assets/images/maestro.png" class="services-logo" alt="logo maestro">
+                    <p>Maestro</p>
+                </div>
+            </div>
+        </section>
+
 
 
 
@@ -847,7 +848,7 @@
 
 
     <footer class="d-flex  flex-md-row flex-column jc-sp-ard bg-black color-white mt-5">
-        <p class="m-auto">Mai 2023</p>
+        <p class="m-auto">Juin 2023</p>
         <p class="m-auto">Réalisé par Antoine Chemin</p>
         <a class="no-txt-deco color-white m-auto"
             href="mailto:antoine.chemin.pro@outlook.fr">antoine.chemin.pro@outlook.fr</a>

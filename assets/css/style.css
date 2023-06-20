@@ -12,7 +12,6 @@
 /* GENERICS */
 header {
     max-width: 1200px;
-    min-height: 400px;
     margin: auto;
     background-image: 'assets\images\imageG&C.png';
 }
@@ -22,6 +21,17 @@ main {
     margin: auto;
     font-family: 'Poppins';
 }
+
+nav{
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.nav-fixed-bottom {
+    position: fixed !important;
+    bottom: 0;
+    width: 100%;
+  }
 
 footer{
     max-width: 1200px;
@@ -33,6 +43,9 @@ body {
     position: relative;
 }
 
+.unedecouv{
+    margin-top: 0px !important;
+}
 
 h1, h2 {
     margin: 150px 0 50px 0;
@@ -65,9 +78,10 @@ h4 {
 }
 
 .logo {
-    height: 400px;
+    height: 450px;
     width: auto;
     margin: 80px auto;
+
 }
 
 .social-logo {
@@ -211,10 +225,10 @@ h4 {
 /* CADRE & MENU */
 .montcadre {
     position: relative;
-    padding: 10px;
+    padding: 30px;
     margin-top: 5px;
     margin-bottom: 15px;
-    margin: 5px 10px 15px 0;
+    margin: 15px;
 }
 
 .montcadre::before,
