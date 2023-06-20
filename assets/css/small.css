@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     .social {
         height: 200px;
     }
@@ -29,8 +29,9 @@
         width: 50px;
     }
 
-
-    nav {
+    nav{
+        font-size: 17px;
+        font-weight: 800;
         min-height: 80px;
         font-size: 36px;
         position: relative;
