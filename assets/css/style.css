@@ -1,0 +1,294 @@
+/* FONTS */
+@font-face {
+    font-family: "Poppins";
+    src: url('../fonts/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: "PoppinsLight";
+    src: url('../fonts/Poppins/Poppins-Light.ttf');
+}
+
+/* GENERICS */
+header {
+    max-width: 1200px;
+    min-height: 400px;
+    margin: auto;
+    background-image: 'assets\images\imageG&C.png';
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Poppins';
+}
+
+footer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+body {
+    font-family: 'Poppins';
+    position: relative;
+}
+
+
+h1, h2 {
+    margin: 150px 0 50px 0;
+    font-size: 50px;
+}
+
+
+h4 {
+    margin: 0;
+    font-size: 26px;
+}
+
+/* COLORS */
+.bg-black {
+    background-color: black;
+    color: white !important;
+}
+
+.black {
+    color: black;
+}
+
+.color-white {
+    color: white;
+}
+
+/* icons & logos */
+.phone-icon {
+    height: 30px;
+}
+
+.logo {
+    height: 400px;
+    width: auto;
+    margin: 80px auto;
+}
+
+.social-logo {
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+}
+
+.services-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.menu-logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+}
+
+.services-logo-apple {
+    width: 100px;
+    height: 50px;
+}
+
+.flag{
+    height: 80px;
+    width: auto;
+}
+.milkshakeIcon{
+    height: 150px;
+    width: auto;
+}
+
+/* IMAGES */
+.main-img {
+    width:100vw;
+    max-width: 1200px;
+}
+
+.img-invers {
+    filter: invert(100%);
+}
+
+.box-shadow {
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.menu {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'Poppins';
+}
+
+.intro {
+    font-family: 'Poppins';
+    font-size: 30px;
+    text-align: center;
+}
+
+.horaires {
+    font-family: 'Poppins';
+}
+
+.video-box{
+    border-top: 3px solid black;
+    /* border:none; */
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+
+}
+
+/* FORM */
+/* .form-container {
+    margin: 0 auto;
+} */
+
+.form-field {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+
+.form-field input[type="text"],
+.form-field input[type="email"],
+.form-field textarea {
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0;
+
+}
+
+.form-field textarea {
+    height: 150px;
+    margin: 0;
+
+}
+
+.form-field input[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.list, .adress {
+    font-family: 'PoppinsLight';
+    font-size: 14px;
+}
+
+.list,
+.category {
+    overflow-wrap: normal;
+    margin: -13px 0;
+}
+
+.adress, .adress-bottom{
+    margin: 0;
+}
+
+.adress-head {
+    margin: 30px 0 0 0;
+}
+
+.menu-title {
+    align-self: center;
+}
+
+.tiny {
+    font-family: 'PoppinsLight';
+    font-size: 14px;
+    font-style: italic;
+    margin: 0;
+    line-height: 18px;
+
+}
+
+/* CADRE & MENU */
+.montcadre {
+    position: relative;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    margin: 5px 10px 15px 0;
+}
+
+.montcadre::before,
+.montcadre::after {
+    content: "";
+    position: absolute;
+    top: -1px;
+    bottom: -1px;
+    width: calc(100% + 2px);
+    border: 2px solid black;
+    z-index: -1;
+}
+
+.montcadre::before {
+    left: -3px;
+    border-radius: 10% 5% 15% 10%/5% 10% 5% 15%;
+    transform: rotate(-3deg);
+}
+
+.montcadre::after {
+    right: -2px;
+    border-radius: 5% 10% 10% 15%/15% 5% 10% 5%;
+    transform: rotate(1deg);
+}
+
+.erased {
+    color: rgba(0, 0, 0, 0.7);
+    /* Couleur du texte légèrement effacé */
+    text-shadow: 0.5px 0.5px 0px rgba(255, 255, 255, 0.4);
+    /* Ombre du texte */
+}
+
+.oblic {
+    width: 600px;
+    height: 120px;
+    border-radius: 100px;
+}
+
+.fanion {
+    height: 60px !important;
+    width: 60px !important;
+}
+
+.milkshake {
+    line-height: 12px;
+}
+
+/* CARDS */
+.review-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.rating {
+    color: #ffd700;
+    margin-bottom: 10px;
+}
+
+.star {
+    width: 40px;
+    height: auto;
+}
+
+.review {
+    margin-bottom: 10px;
+}
+
+.author {
+    font-style: italic;
+    font-family: 'PoppinsLight';
+}
+
+.deco{
+    width: 115px;
+}

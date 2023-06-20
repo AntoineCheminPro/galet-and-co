@@ -1,0 +1,70 @@
+@media screen and (max-width: 767px) {
+    .social {
+        height: 200px;
+    }
+
+    body {
+        width: 100%;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    /* IMAGES */
+    .main-img {
+        width: 100vh !important;
+        max-width: 1200px;
+        margin-top: 450px;
+    }
+
+    .menu-img {
+        width: 300px;
+        height: auto;
+
+    }
+
+    .flag {
+        height: 40px;
+        width: 50px;
+    }
+
+
+    nav {
+        min-height: 80px;
+        font-size: 36px;
+        position: relative;
+    }
+
+    .logo {
+        width: 80%;
+        height: auto;
+    }
+
+
+    .menu-img {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .montcadre::before,
+    .montcadre::after {
+        /* display: none; */
+    }
+
+    .CONTACT {
+        width: 80%;
+    }
+
+    .form-field input[type="text"],
+    .form-field input[type="email"],
+    .form-field textarea {
+        width: 75%;
+
+    }
+
+    .list {
+        font-size: 12px;
+    }
+
+}

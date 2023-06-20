@@ -1,0 +1,353 @@
+@media screen and (min-width: 912px) {
+
+    /*  displays */
+    .lg-flex {
+        display: flex;
+    }
+
+    .lg-hidden {
+        display: none;
+    }
+
+
+    .lg-inline-block {
+        display: inline-block;
+    }
+
+    .lg-block {
+        display: block;
+    }
+
+    /* Flex directions */
+    .lg-row {
+        flex-direction: row;
+    }
+
+    .lg-column {
+        flex-direction: column;
+    }
+
+    .lg-column-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .lg-wrap {
+        flex-wrap: wrap;
+    }
+
+    /* Justify-content */
+
+    .lg-jc-sp-btwn {
+        justify-content: space-between;
+    }
+
+    .lg-jc-sp-ard {
+        justify-content: space-around;
+    }
+
+    .lg-jc-center {
+        justify-content: center;
+    }
+
+    .lg-jc-fend {
+        justify-content: flex-end;
+    }
+
+    .lg-jc-fstart {
+        justify-content: flex-start;
+    }
+
+    /* align-items */
+    .lg-ai-center {
+        align-items: center;
+    }
+
+    .lg-ai-fstart {
+        align-items: flex-start;
+    }
+
+    .lg-ai-fend {
+        align-items: flex-end;
+    }
+
+    .lg-ai-base {
+        align-items: baseline;
+    }
+
+    .lg-ac-spard {
+        align-content: space-around;
+    }
+
+    .lg-ac-fend {
+        align-content: flex-end;
+    }
+
+    /* align-self */
+    .lg-as-center {
+        align-self: center;
+    }
+
+    .lg-as-fend {
+        align-self: flex-end;
+    }
+
+    /* margin */
+    .lg-m-0 {
+        margin: 0;
+    }
+
+    .lg-m-5 {
+        margin: 5px;
+    }
+
+    .lg-m-10 {
+        margin: 10px;
+    }
+
+    .lg-m-20 {
+        margin: 20px;
+    }
+
+    .lg-mx-20 {
+        margin: 0 20px;
+    }
+
+    .lg-mb-10 {
+        margin-bottom: 10px;
+    }
+
+    .lg-mb-15 {
+        margin-bottom: 15px;
+    }
+
+    .lg-mt-0 {
+        margin-top: 0;
+    }
+
+    .lg-mt-5 {
+        margin-top: 5px;
+    }
+
+    .lg-mt-10 {
+        margin-top: 10px;
+    }
+
+    .lg-mt-15 {
+        margin-top: 15px;
+    }
+
+    .lg-mt-30 {
+        margin-top: 30px;
+    }
+
+    .lg-mt-50 {
+        margin-top: 50px;
+    }
+
+    .lg-mt-100 {
+        margin-top: 100px;
+    }
+
+    .lg-mt-150 {
+        margin-top: 150px;
+    }
+
+    .lg-mt-200 {
+        margin-top: 200px;
+    }
+
+
+
+    .lg-m-auto {
+        margin: auto;
+    }
+
+    .lg-mx-auto {
+        margin: 0 auto;
+    }
+
+    .lg-mx-5 {
+        margin: 0 5px;
+    }
+
+    .lg-mx-10 {
+        margin: 0 10px;
+    }
+
+    .lg-my-auto {
+        margin: auto 0;
+    }
+
+    .lg-my-5 {
+        margin: 5px 0;
+    }
+
+    .lg-my-10 {
+        margin: 10px 0;
+    }
+
+    /* width */
+    .lg-w-5 {
+        width: 5%;
+    }
+
+    .lg-w-auto {
+        width: auto;
+    }
+
+    .lg-w-10 {
+        width: 10%;
+    }
+
+    .lg-w-15 {
+        width: 15%;
+    }
+
+    .lg-w-20 {
+        width: 20%;
+    }
+
+    .lg-w-25 {
+        width: 25%;
+    }
+
+    .lg-w-50 {
+        width: 50%;
+    }
+
+    .lg-w-75 {
+        width: 75%;
+    }
+
+    .lg-w-100 {
+        width: 100%;
+    }
+
+    .lg-mw-50 {
+        max-width: 50%;
+    }
+
+    .lg-w-fit-content {
+        width: fit-content;
+    }
+
+    /* HEIGHT */
+    .lg-h-5 {
+        height: 5%;
+    }
+
+    .lg-h-10 {
+        height: 10%;
+    }
+
+    .lg-h-15 {
+        height: 15%;
+    }
+
+    .lg-h-20 {
+        height: 20%;
+    }
+
+    .lg-h-25 {
+        height: 25%;
+    }
+
+    .lg-h-30 {
+        height: 30%;
+    }
+
+    .lg-h-35 {
+        height: 35%;
+    }
+
+    .lg-h-40 {
+        height: 40%;
+    }
+
+    .lg-h-45 {
+        height: 45%;
+    }
+
+    .lg-h-50 {
+        height: 50%;
+    }
+
+    .lg-h-60 {
+        height: 60%;
+    }
+
+    .lg-h-70 {
+        height: 70%;
+    }
+
+    .lg-h-75 {
+        height: 75%;
+    }
+
+    .lg-h-80 {
+        height: 80%;
+    }
+
+    .lg-h-85 {
+        height: 85%;
+    }
+
+    .lg-h-90 {
+        height: 90%;
+    }
+
+    .lg-h-99 {
+        height: 99%;
+    }
+
+    .lg-h-95 {
+        height: 95%;
+    }
+
+    .lg-h-100 {
+        height: 100%;
+    }
+
+    /* padding */
+    .lg-p-0 {
+        padding: 0;
+    }
+
+    .lg-p-5 {
+        padding: 5px;
+    }
+
+    .lg-p-10 {
+        padding: 10px;
+    }
+
+    .lg-p-15 {
+        padding: 15px;
+    }
+
+    .lg-p-20 {
+        padding: 20px;
+    }
+
+    /* Just say no */
+    .lg-no-border {
+        border: none;
+    }
+
+    .lg-no-txt-deco {
+        text-decoration: none;
+    }
+
+    .lg-f-size-10 {
+        font-size: 10px;
+    }
+
+    .lg-f-size-20 {
+        font-size: 20px;
+    }
+
+    .lg-f-size-30 {
+        font-size: 30px;
+    }
+
+}
