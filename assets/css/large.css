@@ -6,6 +6,8 @@
         z-index: 9999;
         margin-bottom: 50px;
         padding-top: 0;
+        font-size: 24px;
+        font-weight: 800;    
     }
 
     .nav-fixed-bottom {
