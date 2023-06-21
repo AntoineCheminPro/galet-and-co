@@ -22,7 +22,7 @@ main {
     font-family: 'Poppins';
 }
 
-nav{
+nav {
     font-size: 17px;
     font-weight: 800;
 }
@@ -33,9 +33,9 @@ nav{
     width: 100%;
     z-index: 100000;
 
-  }
+}
 
-footer{
+footer {
     max-width: 1200px;
     margin: auto;
     height: 180px;
@@ -47,11 +47,12 @@ body {
     position: relative;
 }
 
-.unedecouv{
+.unedecouv {
     margin-top: 0px !important;
 }
 
-h1, h2 {
+h1,
+h2 {
     margin: 150px 0 50px 0;
     font-size: 50px;
 }
@@ -88,6 +89,15 @@ h4 {
 
 }
 
+.number {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .social-logo {
     background-color: white;
     height: 40px;
@@ -98,6 +108,10 @@ h4 {
 .services-logo {
     width: 50px;
     height: 50px;
+}
+.services-logo-cider {
+    width: 50px;
+    height: 70px;
 }
 
 .menu-logo {
@@ -111,18 +125,19 @@ h4 {
     height: 50px;
 }
 
-.flag{
+.flag {
     height: 80px;
     width: auto;
 }
-.milkshakeIcon{
+
+.milkshakeIcon {
     height: 150px;
     width: auto;
 }
 
 /* IMAGES */
 .main-img {
-    width:100vw;
+    width: 100vw;
     max-width: 1200px;
 }
 
@@ -150,7 +165,7 @@ h4 {
     font-family: 'Poppins';
 }
 
-.video-box{
+.video-box {
     border-top: 3px solid black;
     /* border:none; */
     border-radius: 10px;
@@ -194,7 +209,8 @@ h4 {
     margin: auto;
 }
 
-.list, .adress {
+.list,
+.adress {
     font-family: 'PoppinsLight';
     font-size: 14px;
 }
@@ -205,12 +221,13 @@ h4 {
     margin: -13px 0;
 }
 
-.adress, .adress-bottom{
+.adress,
+.adress-bottom {
     margin: 0;
 }
 
 .adress-head {
-    margin: 30px 0 0 0;
+    margin: 15px 0 0 0;
 }
 
 .menu-title {
@@ -305,6 +322,6 @@ h4 {
     font-family: 'PoppinsLight';
 }
 
-.deco{
+.deco {
     width: 115px;
 }
