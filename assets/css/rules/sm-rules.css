@@ -2,11 +2,11 @@
 
     /*  displays */
     .sm-flex {
-        display: flex;
+        display: flex !important;
     }
 
     .sm-hidden {
-        display: none;
+        display: none !important;
     }
 
     .sm-inline-block {
