@@ -31,6 +31,8 @@ nav{
     position: fixed !important;
     bottom: 0;
     width: 100%;
+    z-index: 100000;
+
   }
 
 footer{
@@ -226,9 +228,7 @@ h4 {
 .montcadre {
     position: relative;
     padding: 30px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    margin: 15px;
+    margin: 15px 10px 15px 10px;
 }
 
 .montcadre::before,
