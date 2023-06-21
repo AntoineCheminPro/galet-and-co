@@ -38,6 +38,8 @@ nav{
 footer{
     max-width: 1200px;
     margin: auto;
+    height: 180px;
+    color: black;
 }
 
 body {
