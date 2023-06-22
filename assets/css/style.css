@@ -46,10 +46,6 @@ body {
     position: relative;
 }
 
-.unedecouv {
-    margin-top: 0px !important;
-}
-
 h1,
 h2 {
     margin: 150px 0 50px 0;
@@ -146,6 +142,9 @@ h4 {
 
 .box-shadow {
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.2);
+}
+.card-shadow {
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 .menu {
@@ -289,10 +288,9 @@ h4 {
 
 /* CARDS */
 .review-card {
-    width: 300px;
+    width: 80%;
     border: 1px solid #ccc;
     padding: 10px;
-    margin-bottom: 20px;
 }
 
 .rating {

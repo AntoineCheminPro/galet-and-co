@@ -29,4 +29,12 @@
         background-image: 'assets\images\imageG&C.png';
     }
 
+    /* CARDS */
+.review-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+
 }

@@ -37,7 +37,7 @@
             <div class="container-fluid">
                 <div class="d-flex jc-sp-btwn w-100">
                     <a class="color-white no-txt-deco hidden d-md-flex jc-sp-ard f-size-30 " href="#top">
-                        <img src="assets/images/logo.svg" class="social-logo img-invers mx-2 color-white "
+                        <img src="assets/images/logo.svg" class="social-logo img-invers mx-2 color-white img-fluid"
                             alt="logo galet' & co">
                         Galet' & co
                     </a>
@@ -119,7 +119,7 @@
         </nav>
 
         <div class="lg-flex md-flex w-100 m-auto ">
-            <img src="assets/images/imageG&C.png" class="main-img w-100 box-shadow unedecouv"
+            <img src="assets/images/imageG&C.png" class="main-img w-100 box-shadow mt-0 img-fluid"
                 alt="photo devanture Galet' & Co ouvert">
         </div>
     </header>
@@ -139,7 +139,7 @@
             </div>
 
             <aside class="d-flex m-auto ai-center justify-content-md-end jc-center mt-5 col-md-6 col-lg-6">
-                <img class="menu-img" src="assets/images/offre-midi.jpg" class="box-shadow"
+                <img class="menu-img img-fluid" src="assets/images/offre-midi.jpg" class="box-shadow"
                     alt="image offre spéciale midi">
             </aside>
         </section>
@@ -198,7 +198,7 @@
                                     <p class="col col-10">Les légumes & autres </p>
                                     <p class="col col-2">1,20€</p>
                                 </div>
-                               
+
 
                                 <div class="d-flex row jc-sp-btwn list">
                                     <p class="col col-10">oeuf-Oignons - Champignons à la crème <br class="lg-hidden"> -
@@ -629,82 +629,77 @@
 
 
 
-        <section id="concept" class="d-flex ai-center jc-center flex-column w-100 my-5 p-4">
-
+        <section id="concept" class="d-flex ai-center jc-center flex-column w-80 my-5 p-4">
             <h2 class="text-center my-5">Notre concept unique en vidéo</h2>
+        
+            <div class="embed-responsive embed-responsive-16by9">
+                <!-- xl -->
+                <iframe class="embed-responsive-item video-box box-shadow"
+                    src="assets\médias\GaletandCo-Présentation-crêperie.mp4" allowfullscreen></iframe>
+        
+                <!-- sm
+                <iframe class="embed-responsive-item lg-hidden md-hidden sm-flex video-box box-shadow"
+                    src="assets\médias\GaletandCo-Présentation-crêperie.mp4" allowfullscreen></iframe> -->
+            </div>
+        </section>
+        <!-- avis clients -->
 
-            <!-- xl -->
-            <iframe class="lg-flex md-flex sm-hidden  box-shadow video-box"
-                src="assets\médias\GaletandCo-Présentation-crêperie.mp4" width="1200" height="673"
-                style="overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
-                class=" box-shadow video-box" allow="clipboard-write; encrypted-media; picture-in-picture; web-share"
-                allowFullScreen="true"></iframe>
+        <h2 class="mx-auto my-5 w-75">Nos clients parlent de nous</h2>
 
-            <!-- sm -->
-            <iframe class="lg-hidden md-hidden sm-flex  box-shadow video-box"
-                src="assets\médias\GaletandCo-Présentation-crêperie.mp4" width="360" height="200"
-                style="overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
-                class=" box-shadow video-box" allow="clipboard-write; encrypted-media; picture-in-picture; web-share"
-                allowFullScreen="true"></iframe>
+        <section class="d-flex flex-column flex-md-row jc-sp-ard flex-wrap my-5">
+
+                <div class="review-card d-flex flex-column jc-sp-btwn card-shadow my-4 mx-auto">
+                    <div class="rating d-flex jc-center">
+                        <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
+                        <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
+                        <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
+                        <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
+                        <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
+                    </div>
+                    <p class="review">Accueil chaleureux dans un espace agréablement décoré. Crêpes et galettes
+                        succulentes
+                        pour un rapport qualité/prix excellent. Allez y manger. Vous ne serez pas déçu et vous y
+                        reviendrez
+                        😉 </p>
+                    <p class="author">- Isabelle Le Masson</p>
+                </div>
+
+                <div class="review-card d-flex flex-column jc-sp-btwn card-shadow my-4 mx-auto">
+                    <div class="rating d-flex jc-center">
+                        <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
+                        <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
+                        <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
+                        <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
+                        <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
+                    </div>
+                    <p class="review">Super accueil et salle très sympa.
+                        Le concept est vraiment très original.
+                        Les produits d'origine ultra locale et la farine de blé noir bretonne issue de l'agriculture
+                        biologique portent de jolies valeurs. Un régal pour le palais, chaud au cœur dans les idées et
+                        tarifs super doux.
+                        A notre prochain passage, nous reviendrons, en attendent je recommande à 100%.</p>
+                    <p class="author">- emotion pixelisee</p>
+                </div>
+
+                <div class="review-card d-flex flex-column jc-sp-btwn card-shadow my-4 mx-auto">
+                    <div class="rating d-flex jc-center">
+                        <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
+                        <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
+                        <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
+                        <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
+                        <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
+                    </div>
+                    <p class="review">Une petite crêperie mais un grand concept. Nous avons adoré ! Des galettes et des
+                        crêpes sur mesure pour toutes et tous servies avec enthousiasme et sourire ! Nous y reviendrons
+                        avec
+                        plaisir.</p>
+                    <p class="author">- Gwenael Kermagoret</p>
+                </div>
 
         </section>
 
-                <!-- avis clients -->
 
 
-                <h2 class="d-flex jc-center">Nos clients parlent de nous</h2>
-
-                <section class="d-flex lg-row md-row sm-column jc-sp-ard mt-100">
-
-                    <div class="review-card flex column jc-sp-btwn box-shadow my-4 mx-auto">
-                        <div class="rating flex jc-center">
-                            <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
-                            <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
-                            <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
-                            <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
-                            <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
-                        </div>
-                        <p class="review">Accueil chaleureux dans un espace agréablement décoré. Crêpes et galettes succulentes
-                            pour un rapport qualité/prix excellent. Allez y manger. Vous ne serez pas déçu et vous y reviendrez
-                            😉 </p>
-                        <p class="author">- Isabelle Le Masson</p>
-                    </div>
-
-                    <div class="review-card flex column jc-sp-btwn box-shadow my-4 mx-auto">
-                        <div class="rating flex jc-center">
-                            <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
-                            <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
-                            <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
-                            <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
-                            <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
-                        </div>
-                        <p class="review">Super accueil et salle très sympa.
-                            Le concept est vraiment très original.
-                            Les produits d'origine ultra locale et la farine de blé noir bretonne issue de l'agriculture
-                            biologique portent de jolies valeurs. Un régal pour le palais, chaud au cœur dans les idées et
-                            tarifs super doux.
-                            A notre prochain passage, nous reviendrons, en attendent je recommande à 100%.</p>
-                        <p class="author">- emotion pixelisee</p>
-                    </div>
-
-                    <div class="review-card flex column jc-sp-btwn box-shadow my-4 mx-auto">
-                        <div class="rating flex jc-center">
-                            <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
-                            <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
-                            <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
-                            <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
-                            <span><img src="assets/images/star.jpg" class="star" alt="étoile"></span>
-                        </div>
-                        <p class="review">Une petite crêperie mais un grand concept. Nous avons adoré ! Des galettes et des
-                            crêpes sur mesure pour toutes et tous servies avec enthousiasme et sourire ! Nous y reviendrons avec
-                            plaisir.</p>
-                        <p class="author">- Gwenael Kermagoret</p>
-                    </div>
-        
-                </section>
-        
-        
-        
 
         <!-- Nos services -->
 
@@ -1070,8 +1065,8 @@
 
     <footer class="d-flex  flex-md-row flex-column jc-sp-ard mt-5">
 
-        <p class="m-auto">Réalisé par <a class="m-auto black"
-                href="mailto:antoine.chemin.pro@outlook.fr">Antoine Chemin</a></p>
+        <p class="m-auto">Réalisé par <a class="m-auto black" href="mailto:antoine.chemin.pro@outlook.fr">Antoine
+                Chemin</a></p>
 
         <p class="m-auto">Juin 2023</p>
 
