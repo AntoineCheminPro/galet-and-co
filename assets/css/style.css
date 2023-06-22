@@ -32,7 +32,6 @@ nav {
     bottom: 0;
     width: 100%;
     z-index: 100000;
-
 }
 
 footer {
@@ -167,22 +166,15 @@ h4 {
 
 .video-box {
     border-top: 3px solid black;
-    /* border:none; */
     border-radius: 10px;
     box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
-
 }
 
-/* FORM */
-/* .form-container {
-    margin: 0 auto;
-} */
 
 .form-field {
     margin-bottom: 10px;
     padding: 10px;
 }
-
 
 .form-field input[type="text"],
 .form-field input[type="email"],
